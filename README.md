@@ -61,7 +61,8 @@ public class DataGridBehavior : Behavior<sfdatagrid>
  
 
 Upon executing the above code and tapping a cell in the SfDataGrid, a DisplayAlert will appear, showing the column name as depicted below.
-<img src="columnName.jpg" width="360">
+
+<img src="columnName.jpg" width="360"> 
 
 [View sample in GitHub](https://github.com/SyncfusionExamples/How-to-get-the-column-name-on-tapping-a-row-in-.NET-MAUI-DataGrid-SfDataGrid)
 
