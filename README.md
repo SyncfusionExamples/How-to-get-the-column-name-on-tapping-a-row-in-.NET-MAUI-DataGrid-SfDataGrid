@@ -5,11 +5,14 @@ Refer to the code example below, where the CellTapped event is hooked in the SfD
 
 ##### Xaml
  ```XML
-<syncfusion:sfdatagrid x:name="dataGrid" columnwidthmode="Auto" itemssource="{Binding Employees}">
-    <syncfusion:sfdatagrid.behaviors>
-        <behaviors:datagridbehavior>
-    </behaviors:datagridbehavior></syncfusion:sfdatagrid.behaviors>
-</syncfusion:sfdatagrid>
+<syncfusion:SfDataGrid x:Name="dataGrid"
+                       ColumnWidthMode="Auto"
+                       ItemsSource="{Binding Employees}">
+    <syncfusion:SfDataGrid.Behaviors>
+        <Behaviors:DataGridBehavior>
+        </Behaviors:DataGridBehavior>
+    </syncfusion:SfDataGrid.Behaviors>
+</syncfusion:SfDataGrid>
  ```
  
 
